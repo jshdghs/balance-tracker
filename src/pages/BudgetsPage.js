@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addBudget, updateBudget } from '../redux/budgetsSlice';
+import { addBudget } from '../redux/budgetsSlice';
 import { toast } from 'react-toastify';
 
 const BudgetsPage = () => {

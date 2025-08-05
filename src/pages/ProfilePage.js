@@ -14,7 +14,6 @@ function ProfilePage() {
     currency: '₹'
   });
   const [editMode, setEditMode] = useState(false);
-  const [selectedDate, setSelectedDate] = useState('');
   const [dateRange, setDateRange] = useState({ from: '', to: '' });
 
   // Load user from localStorage
