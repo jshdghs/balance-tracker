@@ -44,10 +44,7 @@ function ProfilePage() {
     t => t.type === 'expense' && t.date === today
   );
 
-  const filteredByDate = transactions.filter(t => {
-    if (!dateRange.from || !dateRange.to) return true;
-    return t.date >= dateRange.from && t.date <= dateRange.to;
-  });
+  
 
   return (
     <div className="profile-page">
