@@ -2,6 +2,9 @@
   "name": "balance-tracker",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/dom": "^10.4.1",
